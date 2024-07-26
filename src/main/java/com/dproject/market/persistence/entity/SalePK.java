@@ -8,7 +8,7 @@ import java.io.Serializable;
 @Embeddable
 public class SalePK implements Serializable{
     @Column(name = "\"idPurchaseSale\"")
-    private Integer IdPurchase;
+    private Integer IdPurchaseSale;
     @Column(name = "\"idProductSale\"")
     private Integer IdProductSale;
 
@@ -21,10 +21,10 @@ public class SalePK implements Serializable{
     }
 
     public Integer getIdPurchaseSale() {
-        return IdPurchase;
+        return IdPurchaseSale;
     }
 
     public void setIdPurchaseSale(Integer idPurchase) {
-        IdPurchase = idPurchase;
+        IdPurchaseSale = idPurchase;
     }
 }

@@ -15,7 +15,7 @@ public class SaleEntity {
     private boolean statusSale;
 
     @ManyToOne
-    @MapsId("IdPurchase")
+    @MapsId("IdPurchaseSale")
     @JoinColumn(name = "\"idPurchaseSale\"", insertable = false, updatable = false)
     private PurchaseEntity purchaseEntity;
 
